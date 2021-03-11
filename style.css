@@ -1,0 +1,62 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap');
+
+*{
+    padding:0;
+    margin: 0;
+    font-family: "Montserrat";
+    background-color: rgb(212, 246, 248);
+}
+
+main{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 100vh;
+    flex-direction: column;
+
+
+}
+.head{
+    font-size: 1.5rem;
+    letter-spacing: .1rem;
+    
+}
+.underline{
+  
+    position: relative;
+    height: .25rem;
+    width: 33%;
+    left: 33%;
+    border-radius: 15%;
+    top: .3rem;
+    background-color: rgb(67, 154, 235); 
+}
+.container{
+    margin-top: 15px;
+    display: flex;
+    justify-content: center;
+    background-color: white;
+    height: 20rem;
+    width: 80vh;
+}
+
+.background{
+    margin-top: 5%;
+    background-color: rgb(67, 201, 235);
+    height: 10rem;
+    width: 10rem;
+    border-radius: 52%;
+}
+
+.img{
+    margin-top: 5%;
+    position: absolute;
+    left: 37.1rem;
+    top: 12.6rem;
+    height: 10rem;
+    width: 10rem;
+    background: url("Sandeep.jpg");
+    background-size: cover;
+    border-radius:52%;
+    
+}
